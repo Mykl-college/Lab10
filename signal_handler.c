@@ -4,7 +4,7 @@
  */
 
 /**
- * Modified by:
+ * Modified by: Michael Johnston
  * 
  * Brief summary of modifications:
  */
@@ -18,15 +18,15 @@
 /**
  * @brief Signal handler for SIGINT - prints a message and exits
  */
-void handle_signal() {
-    printf("Received a signal\n");
-    exit(1);
+void handle_signal(int sig) {
+    printf("\nReceived a signal\n");
+    //exit(sig);
 }
 
 int main() {
 
     // Register for the signal
-    signal(SIGINT, handle_signal);
+    signal(SIGKILL, handle_signal);
 
     // Wait until a signal is received
     while(1) {
