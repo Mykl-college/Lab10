@@ -6,7 +6,9 @@
 /**
  * Modified by: Michael Johnston
  * 
- * Brief summary of modifications:
+ * Brief summary of modifications: int sig added to compile. 
+ * handle_signal is sent a SIGKILL to terminate the process.
+
  */
 
 
