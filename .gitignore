@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# exe file
+main
+sigHand
+
 # Object files
 *.o
 *.ko
