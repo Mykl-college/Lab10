@@ -2,7 +2,7 @@
  * File: 
  * Modified by: Michael Johnston
  * 
- * Brief summary of program:
+ * Brief summary of program: program runs for 6 seconds, alarm is sent after 5.
  */
 
  #include <stdio.h>
